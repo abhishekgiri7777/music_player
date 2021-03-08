@@ -1,0 +1,62 @@
+name: music_player
+description: Music player
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  video_player: ^1.0.1
+  audioplayers: ^0.17.4
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  get: ^3.25.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/01_splash.jpg
+    - assets/splash.jpg
+    - assets/splash_icon.png
+    - assets/splash_icon1.png
+    - assets/songpic.jpg
+    - assets/song.mp3
+    - assets/dil_tod_ke.mp3
+    - assets/dil_tukde_tukde.mp3
+    - assets/husnn_hai_suhaana.mp3
+    - assets/mirchi_lagi_toh.mp3
+    - assets/tere_siva.mp3
+    - assets/flutter.mp4
+    - assets/videopic.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

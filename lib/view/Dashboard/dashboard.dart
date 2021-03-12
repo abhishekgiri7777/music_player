@@ -18,7 +18,7 @@ class _DashboardState extends State<Dashboard> {
         title: Container(
           margin: EdgeInsets.only(left: 40.0),
           child: Center(
-            child: Text("Vibrant Life"),
+            child: Text("Music Player"),
           ),
         ),
         actions: [
@@ -32,7 +32,8 @@ class _DashboardState extends State<Dashboard> {
       ),
       body: Container(
         width: MediaQuery.of(context).size.width,
-        child: Column(
+        height: MediaQuery.of(context).size.height,
+        child: ListView(
           children: [
             searchfield(),
             _audiocard(),
@@ -56,6 +57,10 @@ class _DashboardState extends State<Dashboard> {
                 ],
               ),
             ),
+            SizedBox(
+              height: 20.0,
+            ),
+            // _camera(),
           ],
         ),
       ),
